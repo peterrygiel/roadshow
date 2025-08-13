@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -30,7 +30,7 @@
         */
         .calendar-container {
             width: 100%;
-            max-width: 1400px;
+            max-width: 1600px; /* Increased the max-width to make the calendar wider */
             height: 90vh; /* Takes up more vertical space */
             background-color: #ffffff; /* A clean white background */
             border-radius: 1.5rem; /* More rounded corners */
