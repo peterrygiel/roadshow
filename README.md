@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roadshow Calendar</title>
+    <title>Calendar</title>
     <!-- Tailwind CSS for utility-first styling -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Figtree Font for a clean, modern look -->
@@ -30,8 +30,8 @@
         */
         .calendar-container {
             width: 100%;
-            max-width: 1600px; /* Increased the max-width to make the calendar wider */
-            height: 90vh; /* Takes up more vertical space */
+            max-width: 1800px; /* Increased the max-width to make the calendar wider */
+            height: 95vh; /* Takes up more vertical space */
             background-color: #ffffff; /* A clean white background */
             border-radius: 1.5rem; /* More rounded corners */
             box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25); /* Deeper, more defined shadow */
@@ -77,7 +77,7 @@
 <body>
 
 <div class="calendar-container">
-    <div class="calendar-header">📅 Roadshow Calendar</div>
+    <div class="calendar-header">📅 Calendar</div>
     
     <!-- This is the iframe code for the Airtable calendar view -->
     <iframe
